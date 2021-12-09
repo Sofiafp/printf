@@ -1,0 +1,18 @@
+Explanation of the print_hex.c file because I know it's so confusing and 
+I'm gonna forget how I came up with this hell : )
+
+ft_put_hex
+
+Notes: make_the_choice is just the function that is going to print the number in hexadecimal
+       I know its a bad name, get used to it.
+ 
+First, I find the number of times I must divide the number by 16 in order to get to
+the first digit of the number
+  This is because I would otherwise print the hex number in the wrong order
+  This function returns the first digit as well as the number of iterations because then I
+am I going to print that number 
+    (turns out that (num%16) when num/16=0 has the same result as num/16 in the penultimate iteration)
+  
+Second, the double while... idk
+  I reset the number and the counter
+  I divide by sixteen as many time...
