@@ -1,6 +1,7 @@
 # printf
 
-Printf - 3rd Project for 42 Cursus
+3rd Project for 42 Cursus
+=========================
 
 Notes:
 Hexadecimal function sucks. I refuse to use recursive.
