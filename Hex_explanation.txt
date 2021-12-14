@@ -15,4 +15,6 @@ am I going to print that number
   
 Second, the double while... idk
   I reset the number and the counter
-  I divide by sixteen as many time...
+  I divide by sixteen as many time as it is necessary to get the last iteration, and then the second to last
+etc, etc,
+Its the whole process, but backwards, print the modulle each time
